@@ -183,7 +183,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="mx-auto  max-w-[1512px] px-5  border-none py-5 rounded-none mt-0 w-full bg-opacity-100 bg-[#0D1014] lg:pl-6">
+    <Navbar className="mx-auto  max-w-[1484px] px-5  border-none py-5 rounded-none mt-0 w-full bg-opacity-100 bg-[#0D1014] lg:pl-6">
       <div className="relative  justify-between mx-auto flex items-center  text-white">
         <div className=" flex items-center gap-10">
           <img
