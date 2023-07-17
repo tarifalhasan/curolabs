@@ -4,7 +4,7 @@ import Calender from './Calender';
 
 const CalenderView = () => {
   return (
-    <div className="container mx-auto my-8 md:flex gap-3">
+    <div className="container-tarif mx-auto my-8 md:flex gap-3">
       <div className="md:w-[30%]">
         <Performance />
       </div>

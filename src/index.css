@@ -6,13 +6,20 @@
   .active_nav {
     @apply relative before:absolute  !text-[#00D880]  before:w-full before:top-[25px] before:h-[2px] before:bg-[#00D880];
   }
+  .container-tarif {
+    @apply max-w-[95em] mx-auto px-5;
+  }
 }
 @media (min-width: 1320px) {
   .container {
     max-width: 1512px !important;
   }
 }
-
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;

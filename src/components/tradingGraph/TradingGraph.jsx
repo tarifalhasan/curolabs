@@ -5,7 +5,7 @@ import Objective from './Objective';
 
 const TradingGraph = () => {
   return (
-    <div className="container mx-auto mt-8 md:flex gap-3 h-[100%]">
+    <div className="container-tarif mx-auto mt-8 md:flex gap-3 h-[100%]">
       <div className="md:w-[70%]">
         <ChartView />
       </div>

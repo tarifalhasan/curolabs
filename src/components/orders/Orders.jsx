@@ -116,7 +116,7 @@ const TABLE_ROWS = [
 const Orders = () => {
   const [tableData, setTableData] = useState('position');
   return (
-    <div className="container mx-auto mt-8 orders">
+    <div className="container-tarif mx-auto mt-8 orders">
       <Card className="overflow-scroll h-full w-full no-scroll pb-3">
         <div className="flex gap-10 p-3 pb-1">
           <Typography
