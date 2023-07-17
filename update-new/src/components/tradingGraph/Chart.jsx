@@ -68,7 +68,19 @@ const ChartView = () => {
 
   return (
     <div className="card shadow-lg bg-white rounded-lg py-3">
-      <Chart options={options} series={series} type="area" height={327} />
+      {/* <div className="flex items-center justify-between">
+                <Typography>Balance</Typography>
+            </div> */}
+      <Chart
+        options={options}
+        series={series}
+        type="area"
+        height={300}
+        //   width="500"
+      />
+      <Typography className="text-[16px] text-center font-[500]">
+        Number of Trades
+      </Typography>
     </div>
   );
 };

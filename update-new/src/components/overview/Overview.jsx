@@ -2,16 +2,13 @@ import { Card, CardBody, Typography } from '@material-tailwind/react';
 import React from 'react';
 import { AiOutlineDollar, AiOutlineStar } from 'react-icons/ai';
 import win_loss_img from '../../images/win&loss.png';
-import equityIcon from '../../assets/equity.png';
 const Overview = () => {
   return (
-    <div className=" mt-7 grid gap-5 lg:grid-cols-5 container mx-auto">
+    <div className=" mt-7 grid gap-5 lg:grid-cols-4 container mx-auto">
       <Card className="w-full md:mb-0 mb-3 shadow-lg">
         <CardBody className="flex items-center gap-5">
-          <div>
-            <div className=" w-[70px] h-[70px]  bg-secondary grid place-items-center bg-opacity-[0.10000000149011612] rounded-full ">
-              <AiOutlineDollar color="#00D880" size={35} />
-            </div>
+          <div className=" w-[70px] h-[70px]  bg-secondary grid place-items-center bg-opacity-[0.10000000149011612] rounded-full ">
+            <AiOutlineDollar color="#00D880" size={35} />
           </div>
           <div>
             <Typography className=" text-xl font-normal text-black  ">
@@ -26,10 +23,8 @@ const Overview = () => {
 
       <Card className="w-full md:mb-0 mb-3 shadow-lg">
         <CardBody className="flex items-center gap-5">
-          <div>
-            <div className="w-[70px] h-[70px]  bg-cyan grid place-items-center bg-opacity-[0.10000000149011612] rounded-full">
-              <AiOutlineDollar color="#03E3FC" size={35} />
-            </div>
+          <div className="w-[70px] h-[70px]  bg-cyan grid place-items-center bg-opacity-[0.10000000149011612] rounded-full">
+            <AiOutlineDollar color="#03E3FC" size={35} />
           </div>
           <div>
             <Typography className=" text-xl font-normal ">Balance</Typography>
@@ -39,26 +34,7 @@ const Overview = () => {
           </div>
         </CardBody>
       </Card>
-      <Card className="w-full md:mb-0 mb-3 shadow-lg">
-        <CardBody className="flex items-center gap-5">
-          <div>
-            <div className="w-[70px] h-[70px]  bg-red grid place-items-center bg-opacity-[0.10000000149011612] rounded-full">
-              <img
-                className=" max-w-[45px]"
-                width={100}
-                src={equityIcon}
-                alt="equityIcon"
-              />
-            </div>
-          </div>
-          <div>
-            <Typography className=" text-xl font-normal ">Equity</Typography>
-            <Typography className="text-3xl pt-2  sm:text-4xl font-semibold text-black">
-              $125,000
-            </Typography>
-          </div>
-        </CardBody>
-      </Card>
+
       <Card className="w-full md:mb-0 mb-3 shadow-lg">
         <CardBody className="flex items-center gap-5">
           <div className="">
@@ -89,10 +65,8 @@ const Overview = () => {
 
       <Card className="w-full md:mb-0 mb-3 shadow-lg">
         <CardBody className="flex items-center gap-5">
-          <div>
-            <div className="w-[70px] h-[70px]  bg-[#7367FF] grid place-items-center bg-opacity-[0.10000000149011612] rounded-full">
-              <AiOutlineStar color="#7367FF" size={35} />
-            </div>
+          <div className="w-[70px] h-[70px]  bg-[#7367FF] grid place-items-center bg-opacity-[0.10000000149011612] rounded-full">
+            <AiOutlineStar color="#7367FF" size={35} />
           </div>
           <div>
             <Typography className=" text-xl font-normal ">Win Rate</Typography>
