@@ -10,17 +10,15 @@ const Objective = () => {
   ];
   return (
     <div className="card shadow-lg p-3 rounded-lg bg-white h-[365px]">
-      <Typography className="text-[20px] font-[600] mb-4">
-        Trading Objectives
-      </Typography>
+      <h4 className="text-[20px]  font-semibold mb-4">Trading Objectives</h4>
       {objectiveData.map((data, index) => {
         return (
           <div key={index} className="flex items-center mb-4 ">
-            <div className="w-[50%] p-2 h-[20] bg-[rgba(0,244,150,0.3)] text-[18px] flex items-center justify-between">
+            <div className="w-[50%] rounded-md h-[59px] p-2  bg-primary bg-opacity-[0.10000000149011612] text-[18px] flex items-center justify-between">
               <span className="font-[500]">{data.title}</span>{' '}
               <span className="font-[600]">:</span>
             </div>
-            <div className="w-[50%] p-2 h-[20] bg-[rgb(247,248,253)] text-[18px]">
+            <div className="w-[50%] flex items-center p-2 h-[59px] bg-[rgb(247,248,253)] text-[18px]">
               {data.value}
             </div>
           </div>
